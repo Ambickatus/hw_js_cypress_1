@@ -1,0 +1,24 @@
+{
+  "name": "cypress1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "test:ChromeHeaded": "npx cypress run --browser chrome --headed --config-file cypress.config.js",
+    "test:ChromeIphone5Headed": "npx cypress run --browser chrome --headed --config-file cypress.config.js", 
+    "test:ChromeHeadless": "npx cypress run --browser chrome --headless --config-file cypress.config.js",
+    "test:ChromeIphone5Headless":"npx cypress run --browser chrome --headless --config-file cypress.config.js",
+
+    "test:EdgeHeaded": "npx cypress run --browser edge --headed --config-file cypress.config.iphone5.js",
+    "test:EdgeIphone5Headed": "npx cypress run --browser edge --headed --config-file cypress.config.iphone5.js", 
+    "test:EdgeHeadless": "npx cypress run --browser edge --headless --config-file cypress.config.iphone5.js",
+    "test:EdgeIphone5Headless":"npx cypress run --browser edge --headless --config-file cypress.config.iphone5.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^14.3.3"
+  }
+}
